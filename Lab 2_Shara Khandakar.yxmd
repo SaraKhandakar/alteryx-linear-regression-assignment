@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="54" />
+        <Position x="54" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sarak\Downloads\final_real_estate.csv</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv</File>
           <FormatSpecificOptions>
             <CodePage>28591</CodePage>
             <Delimeter>,</Delimeter>
@@ -25,23 +25,26 @@
           <DefaultAnnotationText>final_real_estate.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="price" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="year_sold" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="property_tax" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="insurance" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="beds" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="baths" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="sqft" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="year_built" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="lot_size" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="basement" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="Age" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="Popular_Home" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="Recession_Period" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="Bunglow" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
-            <Field name="Condo" size="254" source="File: C:\Users\sarak\Downloads\final_real_estate.csv" type="V_String" />
+            <Field name="price" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="year_sold" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="property_tax" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="insurance" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="beds" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="baths" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="sqft" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="year_built" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="lot_size" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="basement" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="Age" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="Popular_Home" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="Recession_Period" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="Bunglow" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
+            <Field name="Condo" size="254" source="File: D:\BISI\Level 2\Machine learning 2\alteryx-linear-regression-assignment\final_real_estate.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -49,7 +52,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="174" y="54" />
+        <Position x="174" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -84,7 +87,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings>
-        <Position x="318" y="54" />
+        <Position x="318" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -101,19 +104,16 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="474" y="30" />
+        <Position x="474" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_19888_1ab0b6c3fab2410e939d3abe6fd51905_\Engine_19888_218ade4adc66490a906768e37e52900a~.yxdb</TempFile>
+          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_12504_274184167d2346229a408c7b4f6d1010_\Engine_12504_979090af6a9642cbaae457a89550cc75~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -137,11 +137,11 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="90" />
+        <Position x="462" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_19888_1ab0b6c3fab2410e939d3abe6fd51905_\Engine_19888_368a9b1983394dac8966a3b8408ad0c6~.yxdb</TempFile>
+          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_12504_274184167d2346229a408c7b4f6d1010_\Engine_12504_7600c86fa7054696b7f158610a7255b6~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -165,7 +165,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings>
-        <Position x="282" y="126" />
+        <Position x="282" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -178,15 +178,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="Linear_Regression">
-        <Position x="366" y="114" />
+        <Position x="366" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -227,11 +224,11 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="510" y="138" />
+        <Position x="510" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_19888_1ab0b6c3fab2410e939d3abe6fd51905_\Engine_19888_974679819c61478e89fbc29f9be076b0~.yxdb</TempFile>
+          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_12504_274184167d2346229a408c7b4f6d1010_\Engine_12504_8d7b38471f0c4dbba43e55391e92fca6~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -255,7 +252,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="Score">
-        <Position x="474" y="270" />
+        <Position x="474" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -303,7 +300,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="618" y="270" />
+        <Position x="618" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -313,8 +310,6 @@
         </Configuration>
         <Annotation DisplayMode="1">
           <Name>Error Calculation</Name>
-          <AnnotationText><![CDATA[error = abs([Score_fit]-[price])
-]]></AnnotationText>
           <DefaultAnnotationText>Error Calculation</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -323,11 +318,11 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="774" y="270" />
+        <Position x="774" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_19888_1ab0b6c3fab2410e939d3abe6fd51905_\Engine_19888_b71e42af3e904f58b8ea05b81c66ccdd~.yxdb</TempFile>
+          <TempFile>C:\Users\sarak\AppData\Local\Temp\Alteryx\Engine_12504_274184167d2346229a408c7b4f6d1010_\Engine_12504_343801ae95214d7a973e5b26955a95ce~.yxdb</TempFile>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
