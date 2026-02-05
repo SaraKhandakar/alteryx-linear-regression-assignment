@@ -3,7 +3,7 @@
 This repository contains the Alteryx workflow and dataset used to complete the linear regression assignment.
 
 ## Files Included
-- `linear_regression.yxmd` – Alteryx workflow file
+- `Lab 2_Shara Khandakar.yxmd` – Alteryx workflow file
 - `final_real_estate.csv` – Dataset used in the model
 
 ## Description
